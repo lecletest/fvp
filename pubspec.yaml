@@ -46,14 +46,12 @@ flutter:
         pluginClass: FvpPlugin
       ios:
         pluginClass: FvpPlugin
-        sharedDarwinSource: false
-      linux:
-        pluginClass: FvpPlugin
-      macos:
-        pluginClass: FvpPlugin
-        sharedDarwinSource: true
-      windows:
-        pluginClass: FvpPluginCApi
+#      linux:
+#        pluginClass: FvpPlugin
+#      macos:
+#        pluginClass: FvpPlugin
+#      windows:
+#        pluginClass: FvpPluginCApi
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
