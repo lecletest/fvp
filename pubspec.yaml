@@ -46,7 +46,7 @@ flutter:
         pluginClass: FvpPlugin
       ios:
         pluginClass: FvpPlugin
-        sharedDarwinSource: true
+        sharedDarwinSource: false
       linux:
         pluginClass: FvpPlugin
       macos:

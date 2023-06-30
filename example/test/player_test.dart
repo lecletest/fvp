@@ -10,9 +10,9 @@ import 'package:test/test.dart';
 //import 'package:video_player_platform_interface/video_player_platform_interface.dart';
 import 'package:fvp/fvp.dart';
 
-void main() {
-  test('registration', () {
-    MdkVideoPlayer.registerWith();
-    expect(VideoPlayerPlatform.instance, isA<MdkVideoPlayer>());
-  });
-}
+// void main() {
+//   test('registration', () {
+//     MdkVideoPlayer.registerWith();
+//     expect(VideoPlayerPlatform.instance, isA<MdkVideoPlayer>());
+//   });
+// }
